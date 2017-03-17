@@ -36,6 +36,10 @@ The Radio Hack Box currently has four simple push buttons for
 - start attack (keystroke injection attack)
 - start scanning
 
+A **graceful shutdown** of the Radio Hack Box without corrupting the file system
+can be performed by pressing the **SCAN button directly followed by the RECORD
+button**.
+
 ![SySS Radio Hack Box usage](https://github.com/SySS-Research/radio-hackbox/blob/master/images/radio_hack_box_usage.png)
 
 
