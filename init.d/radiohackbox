@@ -1,0 +1,29 @@
+#!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:          radiohackbox
+# Required-Start:    $syslog
+# Required-Stop:     $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Startup script for SySS Radio Hack Box
+# Description:       A simple startup script for SySS Radio Hack Box
+### END INIT INFO
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+    start)
+        echo "Starting SySS Radio Hackbox"
+        /usr/bin/python2 /home/pi/radiohackbox/radiohackbox.py
+        ;;
+    stop)
+        echo "Stopping SySS Radio Hackbox"
+        kill $(ps aux | awk '/radiohackbox.py/ { print $2 }')
+        ;;
+    *)
+        echo "Usage: /etc/init.d/radiohackbox {start|stop}"
+        exit 1
+        ;;
+    esac
+    
+exit 0
