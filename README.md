@@ -30,7 +30,22 @@ entry:
 
 ## Usage
 
-![SySS Radio Hack Box](https://github.com/SySS-Research/radio-hackbox/blob/master/images/radio_hack_box_usage.png)
+The Radio Hack Box currently has four simple push buttons for
+- start/stop recording
+- start playback (replay attack)
+- start attack (keystroke injection attack)
+- start scanning
+
+![SySS Radio Hack Box usage](https://github.com/SySS-Research/radio-hackbox/blob/master/images/radio_hack_box_usage.png)
+
+
+## Pi Radio Hack Box Shield
+
+The hand-crafted Pi shield simply consists of an LCD, some LEDs, some buttons, resistors, and wires soldered to a perfboard.
+
+![Pi Radio Hack Box Shield front](https://github.com/SySS-Research/radio-hackbox/blob/master/images/pi_shield_front.png)
+![Pi Radio Hack Box Shield back](https://github.com/SySS-Research/radio-hackbox/blob/master/images/pi_shield_back.png)
+![Pi Radio Hack Box Shield breadboard design](https://github.com/SySS-Research/radio-hackbox/blob/master/images/radiohackbox_breadboard.png)
 
 
 ## Disclaimer
