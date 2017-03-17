@@ -4,6 +4,8 @@ The SySS Radio Hack Box is a proof-of-concept software tool to demonstrate the
 replay and keystroke injection vulnerabilities of the wireless keyboard 
 Cherry B.Unlimited AES.
 
+![SySS Radio Hack Box](https://github.com/SySS-Research/radio-hackbox/blob/master/images/radio_hack_box.png)
+
 
 ## Requirements
 
@@ -25,6 +27,11 @@ entry:
 ```
 @reboot python2 /home/pi/radiohackbox/radiohackbox.py &
 ```
+
+## Usage
+
+![SySS Radio Hack Box](https://github.com/SySS-Research/radio-hackbox/blob/master/images/radio_hack_box_usage.png)
+
 
 ## Disclaimer
 
