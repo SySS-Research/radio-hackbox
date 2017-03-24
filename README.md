@@ -43,6 +43,12 @@ button**.
 ![SySS Radio Hack Box usage](https://github.com/SySS-Research/radio-hackbox/blob/master/images/radio_hack_box_usage.png)
 
 
+## Demo Video
+
+A demo video illustrating replay and keystroke injection attacks against an AES encrypted wireless keyboard using the SySS Radio Hack Box a.k.a. Cherry Picker is available on YouTube: [SySS Cherry Picker](https://www.youtube.com/watch?v=KMlmd-LhMmo)
+
+![Cherry Picker Demo Video](https://github.com/SySS-Research/radio-hackbox/blob/master/images/radio_hack_box_video.png)
+
 ## Pi Radio Hack Box Shield
 
 The hand-crafted Pi shield simply consists of an LCD, some LEDs, some buttons, resistors, and wires soldered to a perfboard.
